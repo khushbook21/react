@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import UserProfile from './components/userProfile';
+import ReactLifecycle from './components/ReactLifecycle';
 
 function App() {
   return (
     <div className="App">
       <UserProfile />
+      <ReactLifecycle />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
