@@ -10,4 +10,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: lightcyan;  
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
 }
