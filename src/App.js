@@ -23,23 +23,42 @@ function App() {
   // );
 
   // if else condition 
-  if (isLoggedIn) {
-    return (
-      <LectureThree />
-    );
-  } else {
-    return (
-      <LogOut />
-    );
-  }
 
+  // if (isLoggedIn) {
+  //   return (
+  //     <LectureThree />
+  //   );
+  // } else {
+  //   return (
+  //     <LogOut />
+  //   );
+  // }
 
   //turnary operator condition
   //   return {
   //  { isLoggedIn ? <LectureThree /> : <LogOut /> }
   // }
 
+  function hnadleClick() {
+    alert('hello user you want click me');
+  }
+  function handleMouseOver() {
+    alert('hover on pra is happening');
+  }
+  function handleInputChange() {
+    console.log('on input change the count');
+  }
+  return (
 
+    <div>
+      <form>
+        <input type="text" onChange={handleInputChange} />
+ 
+      </form>
+      {/* <p onMouseOver={handleMouseOver} style={{ color: "red", padding:"10px" }}>Im a para </p>
+      <button onClick={hnadleClick}>click me</button> */}
+    </div>
+  )
 
 }
 
