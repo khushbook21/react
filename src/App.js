@@ -56,7 +56,7 @@ function App() {
       <EventHandler />
       {/* <form>
         <input type="text" onChange={handleInputChange} />
-
+        
       </form>
       <img className="avtar" src='https://i.imgur.com/1bX5QH6.jpg' alt="this is image " width={100} height={100} style={{padding:"10px"}}/> */}
 
